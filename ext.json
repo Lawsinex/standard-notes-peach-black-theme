@@ -1,0 +1,18 @@
+{
+  "identifier": "io.github.lawsinex.standard-notes-peach-black",
+  "name": "Peach Black",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "version": "1.0.0",
+  "description": "Near-black backgrounds, charcoal panels, subtle gray borders, soft white text, and warm peach accents. CSS only; no scripts or external assets.",
+  "url": "https://cdn.jsdelivr.net/gh/Lawsinex/standard-notes-peach-black-theme@v1.0.0/theme.css",
+  "download_url": "https://github.com/Lawsinex/standard-notes-peach-black-theme/archive/refs/tags/v1.0.0.zip",
+  "latest_url": "https://cdn.jsdelivr.net/gh/Lawsinex/standard-notes-peach-black-theme@main/ext.json",
+  "marketing_url": "https://github.com/Lawsinex/standard-notes-peach-black-theme",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#FFC49A",
+    "foreground_color": "#090909",
+    "border_color": "#343434"
+  }
+}

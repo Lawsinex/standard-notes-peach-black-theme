@@ -1,0 +1,13 @@
+{
+  "name": "standard-notes-peach-black-theme",
+  "version": "1.0.0",
+  "description": "A peach-on-black CSS theme for Standard Notes.",
+  "license": "MIT",
+  "main": "theme.css",
+  "sn": {
+    "name": "Peach Black",
+    "content_type": "SN|Theme",
+    "area": "themes",
+    "main": "theme.css"
+  }
+}

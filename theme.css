@@ -1,0 +1,120 @@
+/* Peach Black 1.0.0 — a CSS-only Standard Notes theme.
+ * Reference: #090909 / #171717 / #343434 / #F5F5F5 / #999999 / #FFC49A.
+ * Uses the public StyleKit and application theme variables. No remote assets.
+ */
+:root {
+  color-scheme: dark;
+  --sn-stylekit-theme-type: dark;
+  --sn-stylekit-theme-name: peach-black;
+
+  --sn-stylekit-background-color: #090909;
+  --sn-stylekit-foreground-color: #F5F5F5;
+  --sn-stylekit-border-color: #343434;
+  --sn-stylekit-shadow-color: #00000080;
+
+  --sn-stylekit-contrast-background-color: #171717;
+  --sn-stylekit-contrast-foreground-color: #F5F5F5;
+  --sn-stylekit-contrast-border-color: #343434;
+  --sn-stylekit-secondary-background-color: #171717;
+  --sn-stylekit-secondary-foreground-color: #F5F5F5;
+  --sn-stylekit-secondary-border-color: #343434;
+  --sn-stylekit-secondary-contrast-background-color: #242424;
+  --sn-stylekit-secondary-contrast-foreground-color: #F5F5F5;
+  --sn-stylekit-secondary-contrast-border-color: #343434;
+
+  --sn-stylekit-neutral-color: #999999;
+  --sn-stylekit-neutral-contrast-color: #090909;
+  --sn-stylekit-info-color: #FFC49A;
+  --sn-stylekit-info-color-darkened: #E6AC83;
+  --sn-stylekit-info-contrast-color: #090909;
+  --sn-stylekit-info-backdrop-color: #FFC49A18;
+  --sn-stylekit-success-color: #9FCCAD;
+  --sn-stylekit-success-contrast-color: #090909;
+  --sn-stylekit-warning-color: #EAC18C;
+  --sn-stylekit-warning-contrast-color: #090909;
+  --sn-stylekit-danger-color: #F29B9B;
+  --sn-stylekit-danger-contrast-color: #090909;
+  --sn-stylekit-danger-light-color: #302020;
+
+  --sn-stylekit-editor-background-color: #090909;
+  --sn-stylekit-editor-foreground-color: #F5F5F5;
+  --sn-stylekit-paragraph-text-color: #F5F5F5;
+  --sn-stylekit-input-placeholder-color: #999999;
+  --sn-stylekit-input-border-color: #343434;
+  --sn-stylekit-scrollbar-thumb-color: #555555;
+  --sn-stylekit-scrollbar-track-border-color: #343434;
+
+  /* Current StyleKit passive scale, followed by legacy aliases. */
+  --sn-stylekit-passive-color-0: #D4D4D4;
+  --sn-stylekit-passive-color-1: #999999;
+  --sn-stylekit-passive-color-2: #707070;
+  --sn-stylekit-passive-color-3: #343434;
+  --sn-stylekit-passive-color-4: #242424;
+  --sn-stylekit-passive-color-4-opacity-variant: #99999926;
+  --sn-stylekit-passive-color-5: #171717;
+  --sn-stylekit-passive-color-6: #202020;
+  --sn-stylekit-passive-color-super-light: #111111;
+  --sn-stylekit-grey-1: var(--sn-stylekit-passive-color-1);
+  --sn-stylekit-grey-2: var(--sn-stylekit-passive-color-2);
+  --sn-stylekit-grey-3: var(--sn-stylekit-passive-color-3);
+  --sn-stylekit-grey-4: var(--sn-stylekit-passive-color-4);
+  --sn-stylekit-grey-4-opacity-variant: var(--sn-stylekit-passive-color-4-opacity-variant);
+  --sn-stylekit-grey-5: var(--sn-stylekit-passive-color-5);
+  --sn-stylekit-grey-6: var(--sn-stylekit-passive-color-6);
+
+  /* Keep optional tag colors distinct while softening the stock saturation. */
+  --sn-stylekit-accessory-tint-color-1: #FFC49A;
+  --sn-stylekit-accessory-tint-color-2: #D8A6B2;
+  --sn-stylekit-accessory-tint-color-3: #EAC18C;
+  --sn-stylekit-accessory-tint-color-4: #B8ADD9;
+  --sn-stylekit-accessory-tint-color-5: #9FCCAD;
+  --sn-stylekit-accessory-tint-color-6: #E0AB8E;
+
+  --modal-background-color: #171717;
+  --preferences-background-color: #090909;
+  --preferences-navigation-icon-color: #999999;
+  --preferences-navigation-selected-background-color: #28221E;
+  --popover-background-color: #171717;
+  --popover-border-color: #343434;
+  --normal-button-background-color: #171717;
+  --separator-color: #343434;
+
+  --editor-header-bar-background-color: #090909;
+  --editor-background-color: #090909;
+  --editor-foreground-color: #F5F5F5;
+  --editor-title-bar-border-bottom-color: #343434;
+  --editor-title-input-color: #F5F5F5;
+  --editor-pane-background-color: #090909;
+  --editor-pane-editor-background-color: #090909;
+  --editor-pane-editor-foreground-color: #F5F5F5;
+  --editor-pane-component-stack-item-background-color: #171717;
+
+  --items-column-background-color: #090909;
+  --items-column-items-background-color: #090909;
+  --items-column-border-left-color: #343434;
+  --items-column-border-right-color: #343434;
+  --items-column-search-background-color: #171717;
+  --item-cell-selected-background-color: #28221E;
+  --item-cell-selected-border-left-color: #FFC49A;
+  --navigation-column-background-color: #171717;
+  --navigation-section-title-color: #999999;
+  --navigation-item-text-color: #F5F5F5;
+  --navigation-item-count-color: #999999;
+  --navigation-item-selected-background-color: #28221E;
+  --dropdown-menu-radio-button-inactive-color: #999999;
+  --panel-resizer-background-color: #343434;
+  --link-element-color: #FFC49A;
+  --text-selection-color: #090909;
+  --text-selection-background-color: #FFC49A;
+
+  /* Legacy editor and desktop titlebar integration. */
+  --sn-component-foreground-color: #F5F5F5;
+  --sn-component-background-color: #090909;
+  --sn-component-foreground-highlight-color: #FFC49A;
+  --sn-component-outer-border-color: #343434;
+  --sn-component-inner-border-color: #343434;
+  --sn-desktop-titlebar-bg-color: #171717;
+  --sn-desktop-titlebar-border-color: #343434;
+  --sn-desktop-titlebar-ui-color: #F5F5F5;
+  --sn-desktop-titlebar-ui-hover-color: #FFC49A;
+}
