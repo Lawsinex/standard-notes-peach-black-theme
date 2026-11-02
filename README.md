@@ -8,7 +8,7 @@ A CSS-only custom theme using near-black `#090909`, charcoal `#171717`, borders 
 
 1. Download `Peach-Black-Theme.sn.txt` from this repository.
 2. Open Standard Notes **Preferences → Backups → Import backup**, and select that file.
-3. Select **Peach Black** in **Preferences → Appearance → Themes** (or Quick Settings → Themes).
+3. Select **Peach Black** in the bottom-left **Quick Settings** appearance menu. Appearance preferences also let you assign it as the automatic dark theme.
 
 This is a Standard Notes version `004` import file containing exactly one `SN|Theme` item. It contains no notes, keys, account information, or application preferences. The item uses the same `package_info`, `area`, and `hosted_url` structure as the plugin installer. Activation is left to the user. Automatic updates are disabled; the stylesheet stays pinned to `v1.0.0`.
 
@@ -20,7 +20,7 @@ Where the URL installer supports the endpoint, use **Preferences → Plugins →
 
 `https://cdn.jsdelivr.net/gh/Lawsinex/standard-notes-peach-black-theme@v1.0.0/ext.json`
 
-Then select **Peach Black** under **Appearance**. Native desktop installation has not been verified.
+Then select **Peach Black** in the bottom-left **Quick Settings** appearance menu.
 
 To switch back, select another theme. To remove, use **Preferences → Plugins → Manage Plugins**.
 
@@ -34,7 +34,13 @@ To switch back, select another theme. To remove, use **Preferences → Plugins �
 
 No JavaScript, fonts, images, trackers, imports, or external asset references are included. The browser retrieves the manifest and stylesheet from jsDelivr/GitHub. The stylesheet does not request note access. Desktop clients can download the tagged source ZIP.
 
-Fonts, text sizes, layout, and editing behavior remain controlled by Standard Notes. Error, success, and optional tag colors remain distinct. Third-party editors may apply their own styles. Mobile and native desktop appearance require separate verification.
+Fonts, text sizes, layout, and editing behavior remain controlled by Standard Notes. Error, success, and optional tag colors remain distinct. Third-party editors may apply their own styles. Mobile appearance requires separate verification.
+
+## Verified on 2 November 2026
+
+- Web: theme-only import succeeded, the theme rendered in preferences and the editor, and the appearance persisted after reload.
+- Official Apple Silicon macOS app 3.202.11: installed through the custom-plugin URL, selected successfully, and paired with [Peach Light](https://github.com/Lawsinex/standard-notes-peach-light-theme) for automatic dark/light switching. The pair and active dark appearance persisted after quitting and reopening the app.
+- Account sign-in and cross-device sync in the new native app remain for the user to complete.
 
 ## Color contrast
 
